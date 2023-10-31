@@ -1,0 +1,4 @@
+FROM python:3.9
+
+COPY v3.py /app/v3.py
+CMD ["python", "/app/v3.py"]
